@@ -2,4 +2,6 @@
 
 echo "Hello, world";
 
+echo "many words here";
+
 ?>
