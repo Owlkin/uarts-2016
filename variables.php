@@ -22,4 +22,20 @@
         echo $firstVar ." ". "is equal to 10";
     }
     
+    echo "<br>";
+    
+    $brushNum = 0;
+    $currentCost = 0;
+    
+    while ($brushNum <= 100) {
+        $currentCost = $currentCost + 3;
+        $brushNum++;
+        if ($currentCost % 10 === 0) {
+            echo $currentCost;
+            echo "<br>";
+        }
+    }
+    
+    
+    
 ?>
