@@ -82,15 +82,6 @@
     
     echo "<hr>";
     
-    $books = array (
-        array("The Hitchhiker's Guide to the Galaxy", "10", "Douglas Adams");
-        array("The Lord of the Rings", "9", "J. R. R. Tolkien");
-        array("The Martian", "13", "Andy Weir");
-        array("The Color of Magic", "8", "Terry Pratchett");
-        array("I, Robot", "6", "Isaac Asimov");
-        array("The Way of Kings", "11", "Brandon Sanderson");
-    );
-    
-    foreach ()
+
     
 ?>
