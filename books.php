@@ -1,32 +1,32 @@
 <?php
 
 $books = array (
-    $book => array(
+    book1 => array(
         "title" => "The Hitchhiker's Guide to the Galaxy",
         "price" => "10", 
         "author" => "Douglas Adams"
     ),
-    $book => array(
+    book2 => array(
         "title" => "The Lord of the Rings",
         "price"  => "9",
         "author" => "J. R. R. Tolkien"
     ),
-    $book => array(
+    book3 => array(
         "title" => "The Martian",
         "price"  => "13",
         "author" => "Andy Weir"
     ),
-    $book => array(
+    book4 => array(
         "title" => "The Color of Magic",
         "price"  => "8",
         "author" => "Terry Pratchett"
     ),
-    $book => array(
+    book5 => array(
         "title" => "I, Robot",
         "price"  => "6",
         "author" => "Isaac Asimov"
     ),
-    $book => array(
+    book6 => array(
         "title" => "The Way of Kings",
         "price"  => "11",
         "author" => "Brandon Sanderson"
