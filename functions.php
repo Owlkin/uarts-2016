@@ -29,10 +29,28 @@
 
     $area = calculateArea($length, $width);
     
-    echo "The area of a rectangle with a length of " . $length . " and a width of " . $width . " is " . $area . "."
+    echo "The area of a rectangle with a length of " . $length . " and a width of " . $width . " is " . $area . ".";
+    
+    echo "<hr>";
+
+    // ---------------
+    
+    $states = array ("New Jersey", "New York", "Pennsylvania");
     
     
+    echo "<ul>";
+    for ($i=0; $i<count($states); $i++) {
+        echo "<li>" . str_replace("e", "x", $states[$i]) . "</li>";
+    }
+    echo "</ul>";
     
+    echo "<hr>";
+    
+    // ---------------
+    
+    $objects = array ("potato", "asparagus", "kalidescope", "menu", "pants");
+    $objectsString = implode(", ", $objects);
+    echo $objectsString;
 
 ?>
 
