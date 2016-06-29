@@ -2,8 +2,6 @@
 
 $lists = file("list.txt");
 
-
-
 print_r($lists);
 
 echo "<br>";
@@ -24,10 +22,11 @@ echo "<br>";
 
 foreach ($newLists as $newList){
     foreach ($newList as $newListItem){
-        strtoupper($newListItem);
+        echo strtoupper($newListItem) . " ";
     }
+    echo "<br>";
 }
 
-print_r($newLists);
+//print_r($newLists);
 
 ?>
