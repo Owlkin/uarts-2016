@@ -1,0 +1,11 @@
+Insert:
+
+INSERT INTO `Augustus_Cars` (`ID`, `make`, `model`, `year`) VALUES (NULL, 'Kia', 'Soul', '2015');
+
+INSERT INTO `Augustus_Cars` (`ID`, `make`, `model`, `year`) VALUES (NULL, 'Tesla', 'Model S', '2016');
+
+Update:
+
+UPDATE `Augustus_Cars` SET `model` = '3 series', `year` = '2004' WHERE `Augustus_Cars`.`ID` = 2;
+
+UPDATE `Augustus_Cars` SET `year` = '2017' WHERE `Augustus_Cars`.`ID` = 1;
